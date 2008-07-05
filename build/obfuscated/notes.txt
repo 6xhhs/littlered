@@ -1,0 +1,53 @@
+== TASKS (6 July 2007) ==
+
+Parallax scrolling... 
+
+Animating water... 
+
+Implement baddies 
+- Add Baddies to the stage,
+- Give them some intelligence,
+
+Implement Game States
+- Implement font drawing helper class,
+- State labels/text e.g. when the game is loading display the text loading (initially then replace with a progress bar),
+- State actions e.g. next stage - goto the next stage 
+
+Implement Drawing of HUD
+- Lives, 
+- Coins, 
+- Player Mode (e.g. fast icon if player is currently in the fast mode),
+- Level
+
+Implement menu 
+- Main menu,
+- About,
+- Help,
+- Transition between game and menu (ie pausing the game and display the menu then resuming the game),
+- Saving game
+
+== INITIAL NOTES ==
+
+LittleRed Types (Player Class):
+- Normal 
+- Fast Red
+- Gunner Red
+
+Baddies Types (Baddie Class):
+- Flying baddie 1
+- Flying baddie 2
+- Cloud 
+- Cannon ball 
+- Gound creature 
+- Friendly 
+
+Effects etc (Effects Class):
+- Shell (gun shell) 
+- Smoke (from little red running)
+- Explosion when player dies 
+- Small explosion from shell hitting baddie 
+
+Props (Props Class):
+- Flower
+- Moving blocks (horizontal and vertical block movement)
+
